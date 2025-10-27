@@ -1,0 +1,102 @@
+body{
+    text-align: center;
+    font-family: Arial;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+p{
+    font-size: small;
+    margin-right: 400px;
+}
+
+ .input-group {
+      position: relative;
+      margin: 25px 0;
+    }
+
+    input {
+      width: 90%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      outline: none;
+      transition: 0.3s;
+    }
+
+    input:focus {
+      border-color: #3ce81a;
+      box-shadow: 0 0 5px rgba(50, 232, 26, 0.4);
+    }
+
+    /* Label animation */
+    label {
+      position: absolute;
+      top: 50%;
+      left: 20px;
+      transform: translateY(-50%);
+      color: #777;
+      font-size: 14px;
+      pointer-events: none;
+      transition: 0.3s;
+      background: white;
+      padding: 0 5px;
+    }
+
+    input:focus + label,
+    input:not(:placeholder-shown) + label {
+      top: -8px;
+      left: 8px;
+      font-size: 12px;
+      color: #10ec40;
+    }
+
+.name input{
+width: 300px;
+justify-content: space-between;
+  margin: 5px;
+  
+  font-size: medium;
+}
+.para{
+    text-align: center;
+}
+h5{
+    font-style: normal;
+    font-size: medium;
+}
+select{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+    button {
+        padding: 10px 20px;
+        margin-left: 10px;
+        border: none;
+        background: #376b19;
+        color: #fff;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: transform 0.3s ease, background 0.3s ease;
+        margin-top: 50px;
+        position: relative;
+        bottom: 30px;
+    }
+         button:hover {
+        background: #8de61a;
+        transform: scale(1.1) rotate(-2deg);
+ }
+ #myForm{
+    border: 2px solid lightgreen;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 10px;
+ }
+
